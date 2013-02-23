@@ -13,7 +13,7 @@ class TweetsController < ApplicationController
   def index
     @filter_action = "/"
 
-    if params.has_key?(:see) && params[:see] == :all
+    if params.has_key?('see') && params['see'] == 'all'
       @tweets = Tweet
     else
       @tweets = DeletedTweet
