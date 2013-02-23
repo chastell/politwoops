@@ -14,7 +14,6 @@ namespace :csv do
         :twitter_id => Twitter.users([row[:user_name]]).first.id,
         :user_name  => row[:user_name]
       )
-      exit
     end
   end
 end
