@@ -3,7 +3,7 @@
 
 en:
   politwoops:
-    slogan: "Deleted tweets from politicians" 
+    slogan: "Usunięte tweety polityków" 
     login: "login"
     logout: "logout"
     menu: "menu"
@@ -19,6 +19,14 @@ en:
     add: "Add"
     yes_label: "Yes"
     no_label: "No"
+    
+    main_page:
+      politicians: "Politycy"
+      more_information: "Więcej informacji"
+      contact: "Kontakt"
+      search: "szukaj"
+      recent: "Ostatnie"
+      no_tweets: "Nie znaleziono żadnych tweetów"
 
     groups:
       errors_explanation:
@@ -102,9 +110,9 @@ en:
       index_heading: "Statistics"
 
     tweets:
-      byline: "Deleted %{when} ago %{delay}, originally posted via %{what}"
-      byline_text: "Deleted %{when} ago %{delay}"
-      reply: "reply"
+      byline: "Skasowane %{when} temu %{delay}, pierwotnie zapostowane przez %{what}"
+      byline_text: "Skasowane %{when} temu %{delay}"
+      reply: "odpowiedz"
       retweet: "retweet"
 
     user_sessions:

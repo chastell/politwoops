@@ -19,7 +19,7 @@
 <% end %>
 
 <% if @tweets.empty? %>
-  <%= t :no_tweets, :scope => [:politwoops, :main_page] %>
+  <%= t :no_tweets, :scope => [:politwoops, :main_page] %> No results for the filter options you selected.
 <% else %>
   <% @tweets.each do |tweet| %>
     <%= render :partial => "tweets/tweet", :locals => {:tweet => tweet} %>
